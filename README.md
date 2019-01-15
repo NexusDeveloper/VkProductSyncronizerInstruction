@@ -1,4 +1,4 @@
-# VkProductSyncronizerInstruction
+# VkProductSynchronizerInstruction
 Инструкция по настройке синхронизации продуктов между сайтом и социальной сетью «vk»
 
 **Шаги**
