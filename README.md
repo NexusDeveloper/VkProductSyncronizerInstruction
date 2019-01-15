@@ -30,3 +30,6 @@ Instruction about what need do, that setting products synchronization between si
   1. Site address («Open API» section): `your site address with protocol`;
   1. Base domain: `your domain name`;
   1. Site theme: `your theme`
+1. In your site in field «Set category» («Установить категорию» in russain) enter the product category name from network «vk» (see hint of this field);
+1. Click on button (in bottom of page) «Save and exit»;
+1. Finish.
