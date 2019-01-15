@@ -1,35 +1,35 @@
 # VkProductSyncronizerInstruction
-Instruction about what need do, that setting products synchronization between site and the social network «vk»
+Инструкция по настройке синхронизации продуктов между сайтом и социальной сетью «vk»
 
-**Steps**
-1. Create new application in VK;
-1. Configure site and «vk» application;
+** шаги **
+1. Создать новое приложение в ВК;
+1. Настроить сайт и приложение «вк»;
 
 
-## Create new application in VK
-1. Authorize in social network;
-1. Go here: https://vk.com/apps?act=manage;
-1. Click on button with text «Create application» (text on button may differ, see [screenshot](screenshots/create-app-button.png));
-1. In opened page enter some name for the application;
-1. In field «Platform» choose option «Website»;
-1. Click on button in bottom;
-1. Finish, application was created.
+## Создать новое приложение в ВК
+1. Авторизуйтесь в социальной сети;
+1. Перейдите сюда: https://vk.com/apps?act=manage;
+1. Нажмите на кнопку «Создать приложение» ([скриншот] (screenshots/create-app-button.png));
+1. На открывшейся странице введите какое-нибудь название приложения;
+1. В поле «Платформа» выберите «Сайт»;
+1. Нажмите на кнопку внизу;
+1. Готово, приложение создано.
 
-## Configure site and «vk» application
-1. Open main page of content management system (CMS) (simple append to domain name of site next string: `/-cms-/`);
-1. Find in sidebar link «Synchronize products with VK» and click on it ([screenshot](screenshots/sync-products-button.png));
-1. On top of page click on green button with text «Add»;
-1. Open in other window page with successfully created application in social network «vk»;
-1. In vk sidebar click on link «Settings»;
-1. Copy from vk page value from field «Application ID» and insert it to field «Application identifier» of your site (this field in russian have name «Идентификатор приложения»);
-1. Copy from vk page value from field «Secret key» and insert it to same name field of your site (this field in russian have name «Защищённый ключ»);
-1. In the field «Community ID» of your site enter identifier you community in network «vk» (this field in russian have name «ID сообщества»);
-1. Copy value from the field «Trusted redirect URI» of your site and instert it to same name field in vk (in russian: «Доверенный redirect URI»);
-1. In «vk» set next fields:
-1. Open API: enable;
-  1. Site address («Open API» section): `your site address with protocol`;
-  1. Base domain: `your domain name`;
-  1. Site theme: `your theme`
-1. In your site in field «Set category» («Установить категорию» in russain) enter the product category name from network «vk» (see hint of this field);
-1. Click on button (in bottom of page) «Save and exit»;
-1. Finish.
+## Настройка сайта и приложения «вк»
+1. Откройте главную страницу системы управления контентом (CMS) (просто добавьте к доменному имени сайта следующую строку: `/ -cms- /`);
+1. Найдите в сайдбаре панели ссылку «Синхронизация товаров с VK» и нажмите на нее ([скриншот] (screenshots/sync-products-button.png));
+1. Вверху страницы нажмите на зеленую кнопку с текстом «Добавить»;
+1. Откройте в другом окне страницу с успешно созданным приложением в социальной сети «vk»;
+1. В сайдбаре панели вк кликните на ссылку «Настройки»;
+1. Скопируйте со страницы социальной сети значение из поля «Идентификатор приложения» и вставьте его в поле «Идентификатор приложения» вашего сайта;
+1. Скопируйте со страницы vk значение из поля «Секретный ключ» и вставьте его в одноименное поле вашего сайта;
+1. В поле «Идентификатор сообщества» вашего сайта введите идентификатор вашего сообщества в сети «vk»;
+1. Скопируйте значение из поля «URI доверенного перенаправления» вашего сайта и вставьте его в одноименное поле в vk;
+1. В «вк» установите следующие поля:
+  1. Открыть API: включить;
+  1. Адрес сайта (раздел «Открытый API»): `адрес вашего сайта с протоколом`;
+  1. Базовый домен: `ваше доменное имя`;
+  1. Тема сайта: `ваша тема`
+1. На своем сайте в поле «Установить категорию» введите название категории продукта из сети «vk» (см. Подсказку к этому полю);
+1. Нажмите на кнопку (внизу страницы) «Сохранить и выйти»;
+1. Готово.
